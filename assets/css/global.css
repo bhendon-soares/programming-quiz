@@ -1,5 +1,8 @@
 /* adiciona a fonte roboto a todo o projeto */
 *, :root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     font-synthesis: none;
     text-rendering: optimizeLegibility;
@@ -12,6 +15,38 @@ main {
     padding: 20px;
     max-width: 640px;
     margin: 0 auto 64px;
+}
+
+header {
+    margin-top: 64px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #334155;
+}
+
+header h1 {
+    font-size: 30px;
+}
+
+.quiz-item {
+    margin-top: 24px;
+    border: 1px solid #475569;
+    border-radius: 6px;
+}
+
+.quiz-item h3 {
+    padding: 16px 20px;
+}
+
+.quiz-item dl {
+    padding: 20px 24px;
+    display: grid;
+    gap: 8px;
+}
+
+.quiz-item dl dt {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0;
 }
 
 #acertos {
