@@ -11,6 +11,10 @@
     -webkit-text-size-adjust: 100%;
 }
 
+body {
+    background-color: #0F172A;
+}
+
 main {
     padding: 20px;
     max-width: 640px;
@@ -25,6 +29,7 @@ header {
 
 header h1 {
     font-size: 30px;
+    color: #F1F5F9
 }
 
 .quiz-item {
@@ -35,6 +40,7 @@ header h1 {
 
 .quiz-item h3 {
     padding: 16px 20px;
+    color: #E2E8F0;
 }
 
 .quiz-item dl {
@@ -51,6 +57,7 @@ header h1 {
     display: flex;
     align-items: center;
     gap: 8px;
+    color: #E2E8F0;
 }
 
 input {
