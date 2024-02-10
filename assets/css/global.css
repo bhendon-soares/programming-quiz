@@ -47,6 +47,36 @@ header h1 {
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0;
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+input {
+    all: unset;
+    border: 1px solid #94A3B8;
+    width: 16px;
+    height: 16px;
+
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input:checked {
+    border: 1px solid #A3E635;
+}
+
+input:checked:before {
+    content: "";
+    width: 10px;
+    height: 10px;
+
+    background-color: #A3E635;
+    border-radius: 50%;
 }
 
 #acertos {
